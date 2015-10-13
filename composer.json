@@ -1,8 +1,8 @@
 {
-    "name": "fullybaked/pslackr",
+    "name": "kfreiman/pslackr",
     "type": "library",
     "keywords": ["slack.com", "slack"],
-    "homepage": "https://github.com/fullybaked/pslackr",
+    "homepage": "https://github.com/kfreiman/pslackr",
     "description": "Inbound Webook intergration for Slack.com",
     "license": "MIT",
     "authors": [
@@ -10,6 +10,11 @@
             "name": "Dave Baker",
             "email": "david@fullybaked.co.uk",
             "homepage": "http://www.fullybaked.co.uk",
+            "role": "Developer"
+        },
+        {
+            "name": "Kirill Freiman",
+            "email": "k.freiman@ya.ru",
             "role": "Developer"
         }
     ],
