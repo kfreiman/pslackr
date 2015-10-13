@@ -8,9 +8,9 @@ class Pslackr implements Transport
 {
     protected $token;
 
-    public function __construct($config)
+    public function __construct($url)
     {
-        $this->endpoint = "https://{$config['domain']}.slack.com/services/hooks/incoming-webhook?token={$config['token']}";
+        $this->endpoint = $url;
 
         $this->client = new Client();
     }
