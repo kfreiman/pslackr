@@ -17,10 +17,10 @@ class Pslackr implements Transport
 
     public function send(Messages\Message $message)
     {
-        $request = $this->client->createRequest('POST', $this->endpoint, [
+        $client = new Client();
+        $res = $client->request('GET', $this->endpoint, [
             'json' => $message()
         ]);
-        $this->client->send($request);
     }
 
 }
